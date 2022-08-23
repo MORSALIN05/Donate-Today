@@ -6,7 +6,7 @@ h1 {
     font-size: 48px;
 }
 
-.box {
+.first-section {
     background-image: url(../images/BDflood2.png);
     background-repeat: no-repeat;
     padding: 150px 70px 150px 70px;
@@ -35,4 +35,30 @@ h1 {
     padding: 5px 30px;
     border-radius: 3px;
     font-weight: 700;
+}
+
+.Donate-Today {
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.box {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 40px;
+    height: 80px;
+    background-color: rgb(119, 102, 102);
+    width: 15%;
+    text-align: center;
+}
+
+.flex {
+
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border: 2px;
 }
