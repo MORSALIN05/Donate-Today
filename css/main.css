@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.box {
+    background-image: url(../images/BDflood2.png);
+    background-repeat: no-repeat;
+    padding: 150px 70px 150px 70px;
+    margin: 60px;
+    background-size: cover;
+    color: white;
+
+
+}
+
+.text-box {
+    text-align: center;
+    padding: auto;
+    justify-content: center;
+    justify-items: center;
+    text-justify: distribute;
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 110, 37), tomato);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-weight: 700;
+}
