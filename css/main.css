@@ -26,14 +26,16 @@ h2 {
 
 .text-box {
     text-align: center;
-
     padding: 20px 20px 20px 20px;
     justify-content: center;
     justify-items: center;
-
     width: 60%;
     margin: 0 auto;
 
+}
+
+.text-box p {
+    text-align: justify;
 }
 
 .link-button {
@@ -47,10 +49,14 @@ h2 {
 
 }
 
+.Donate-sect {
+    padding: 70px;
+}
+
 .Donate-Today {
-    margin: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .box {
@@ -128,14 +134,21 @@ input::placeholder {
 
 .bonus-section {
     display: flex;
+    color: white;
 }
 
 .half-width {
     width: 50%;
+
 }
 
 .half-width img {
-    width: 100%;
+    width: 90%;
+}
+
+.back-img5Sec {
+    background-image: url(../images/bi5.png);
+    background-repeat: no-repeat;
 }
 
 footer {
