@@ -6,24 +6,32 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+.text-center {
+    text-align: center;
+    text-decoration-style: wavy;
+    font-family: cursive;
+}
+
 .first-section {
     background-image: url(../images/BDflood2.png);
     background-repeat: no-repeat;
     padding: 150px 70px 150px 70px;
-    margin: 60px;
     background-size: cover;
     color: white;
-
-
 }
 
 .text-box {
     text-align: center;
-    padding: auto;
+
+    padding: 20px 20px 20px 20px;
     justify-content: center;
     justify-items: center;
-    text-justify: distribute;
-    width: 55%;
+
+    width: 60%;
     margin: 0 auto;
 
 }
@@ -35,30 +43,104 @@ h1 {
     padding: 5px 30px;
     border-radius: 3px;
     font-weight: 700;
+    margin: 0 auto;
+
 }
 
 .Donate-Today {
-    margin: 20px;
+    margin: 30px;
     padding-left: 20%;
     padding-right: 20%;
 }
 
 .box {
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-top: 20px;
-    padding-left: 20px;
-    width: 40px;
-    height: 80px;
-    background-color: rgb(119, 102, 102);
+    margin-left: 9px;
+    margin-right: 9px;
+    padding-top: 30px;
+
+    width: 50px;
+    height: 70px;
+    background-color: rgb(240, 229, 229);
     width: 15%;
     text-align: center;
+    font-size: 30px;
+}
+
+.speci-box {
+    border-color: salmon;
+    border-style: solid;
+}
+
+input::placeholder {
+    font-size: small;
+    font-style: italic;
+    margin-left: 15px;
 }
 
 .flex {
 
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     border: 2px;
+}
+
+.shadow-flex {
+    display: flex;
+    padding: 5px;
+    border-radius: 10px 10px;
+    margin-left: 242px;
+    margin-right: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#box-shadow1 {
+
+    width: 30%;
+    background-color: rgb(177, 218, 212);
+
+    border-radius: 5px 5px;
+    padding: 10px;
+}
+
+#box-shadow2 {
+    width: 30%;
+    background-color: rgb(203, 163, 206);
+    border-radius: 5px 5px;
+    padding: 10px;
+}
+
+#box-shadow3 {
+
+    width: 30%;
+    background-color: rgb(212, 160, 144);
+
+    border-radius: 5px 5px;
+    padding: 10px;
+}
+
+.backg-color {
+    background-color: rgb(224, 187, 187);
+    width: 45%;
+    height: 80px;
+}
+
+.bonus-section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: cover;
+    height: 120px;
 }
